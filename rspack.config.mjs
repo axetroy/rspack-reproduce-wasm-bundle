@@ -25,9 +25,12 @@ const config = {
       ? path.resolve(__dirname, "webpack-dist")
       : path.resolve(__dirname, "rspack-dist"),
     filename: "[name].js",
+    // Remove this and wasm module will load correctly
+    webassemblyModuleFilename: "assets/wasm/[id].[hash].wasm",
   },
   experiments: {
     css: true,
+    asyncWebAssembly: true,
   },
 };
 

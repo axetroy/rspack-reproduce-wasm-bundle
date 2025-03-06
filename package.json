@@ -12,6 +12,7 @@
     "dev:webpack": "cross-env WEBPACK=1 webpack serve -c ./rspack.config.mjs"
   },
   "dependencies": {
+    "@axetroy/wasm-hasher-sha1": "^0.1.6",
     "@rspack/cli": "^1.1.8",
     "@rspack/core": "^1.1.8",
     "html-webpack-plugin": "^5.6.3",

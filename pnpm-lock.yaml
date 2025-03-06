@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@axetroy/wasm-hasher-sha1':
+        specifier: ^0.1.6
+        version: 0.1.6
       '@rspack/cli':
         specifier: ^1.1.8
         version: 1.1.8(@rspack/core@1.1.8(@swc/helpers@0.5.15))(@types/express@4.17.21)(webpack-cli@6.0.1)(webpack@5.97.1)
@@ -35,6 +38,9 @@ importers:
         version: 7.0.2
 
 packages:
+
+  '@axetroy/wasm-hasher-sha1@0.1.6':
+    resolution: {integrity: sha512-1jPfoBbFtu9AM92LjD4GH94gxQgugRZJljPdbWuEmKzdiR3tMv0tOe/gacdw14kd/Rfzlqy0VetPMM4pbN1OPQ==}
 
   '@discoveryjs/json-ext@0.5.7':
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
@@ -1733,6 +1739,8 @@ packages:
     engines: {node: '>=12'}
 
 snapshots:
+
+  '@axetroy/wasm-hasher-sha1@0.1.6': {}
 
   '@discoveryjs/json-ext@0.5.7': {}
 
